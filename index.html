@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>CS 3 2Q FA1</title>
+		
+		<meta charset="UTF-8">
+		<meta name="author" content="Lesli Gabrielle G. Tabile">
+		<meta name="keywords" content="HTML, CSS, Javascript">
+		<meta name="revised" content="17-11-2023">
+	</head>
+	<style>
+	
+		a.one:link {
+			color:white;
+			background-color:navy;
+			text-decoration: none;
+		}
+		a.one:visited {
+			color:black;
+			background-color:orange;
+		}
+		a.one:hover {
+			color:blue;
+			background-color:lime;
+		}
+		a.one:active {
+			color:maroon;
+			background-color:yellow;
+		}
+
+
+		a.two:link {
+			color:white;
+			background-color:darkcyan;
+			text-decoration: none;
+		}
+		a.two:visited {
+			color:black;
+			background-color:orange;
+		}
+		a.two:hover {
+			color:blue;
+			background-color:lime;
+		}
+		a.two:active {
+			color:maroon;
+			background-color:pink;
+		}
+		
+		div {
+			margin-left: 0px;
+			margin-top: 24px; 
+			width: 100px;
+			padding-bottom: 80px;
+			border: 1px solid black;
+		}
+		
+		div#div1:target {
+			color:yellow;
+			background-color:navy;	
+		}
+		div#div2:target {
+			color:yellow;
+			border: 10px dotted green;
+			background-color:darkcyan;
+
+		}
+		
+	</style>
+	<body>	
+		
+		<a class="one" href="#div1">First Link</a>
+		<a class="two" href="#div2">Second Link</a>
+		<br>
+		<div id="div1">Div 1 here</div>             
+		<div id="div2">Div 2 here</div>
+		
+	</body>
+</html>
